@@ -14,7 +14,7 @@ const Home = () => {
     console.log("fetching nfts");
 
     // const api_key = ""
-    const api_key = "QFQy6Jc_AHJ8xpXy3qovO9dA-WN9L_hK"
+    const api_key = "RcGj0bhjGJWezzGFxNd_cdAoRVktQzwk"
 
     const baseURL = `https://eth-mainnet.alchemyapi.io/v2/${api_key}/getNFTs/`;
     var requestOptions = {
@@ -43,7 +43,7 @@ const Home = () => {
       var requestOptions = {
         method: 'GET'
       };
-      const api_key = "QFQy6Jc_AHJ8xpXy3qovO9dA-WN9L_hK"
+      const api_key = "RcGj0bhjGJWezzGFxNd_cdAoRVktQzwk"
 
 
       const baseURL = `https://eth-mainnet.alchemyapi.io/v2/${api_key}/getNFTsForCollection/`;
